@@ -1,21 +1,3 @@
-Skip to content
-Navigation Menu
-batman978
-astro
-
-Type / to search
-Code
-Pull requests
-Actions
-Security
-Insights
-Settings
-Deploy Astro site to Pages
-Create astro.yml #1
-Jobs
-Run details
-Workflow file for this run
-.github/workflows/astro.yml at caeaeb5
 # Sample workflow for building and deploying an Astro site to GitHub Pages
 #
 # To get started with Astro see: https://docs.astro.build/en/getting-started/
@@ -106,4 +88,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-Create astro.yml · batman978/astro@caeaeb5
