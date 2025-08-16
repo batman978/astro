@@ -1,5 +1,5 @@
 ---
-
+const pageTitle = "Home Page";
 ---
 
 <html lang="en">
@@ -8,13 +8,13 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
 		<a href="/astro">Home</a>
   		<a href="/astro/about/">About</a>
   		<a href="/astro/blog/">Blog</a>
-		<h1>My Astro Site</h1>
+		<h1>{pageTitle}</h1>
 		<h2>Holy shit I finally got something to work</h2>
 		there's the proof you can't quit until you get what you want
 	</body>
