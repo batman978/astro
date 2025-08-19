@@ -1,4 +1,6 @@
 ---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 import '../styles/global.css';
 const pageTitle = "Home Page";
 ---
@@ -12,11 +14,10 @@ const pageTitle = "Home Page";
 		<title>{pageTitle}</title>
 	</head>
 	<body>
-		<a href="/astro">Home</a>
-  		<a href="/astro/about/">About</a>
-  		<a href="/astro/blog/">Blog</a>
+		<Header />
 		<h1>{pageTitle}</h1>
 		<h2>Holy shit I finally got something to work</h2>
 		there's the proof you can't quit until you get what you want
+		<Footer />
 	</body>
 </html>
